@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Font Style
+*/
+h1 {
+  font-family: "LibreBaskerville", serif;
+}
+.font-heading {
+  font-family: "LibreBaskerville", serif;
+}
+p {
+  font-family: "Lato", serif;
+}
+.font-sub {
+  font-family: "Lato", serif;
+}
+.wid {
+  width: 0.125rem;
+}
+
+/*
+Navbar
+*/
+.text {
+  color: black;
+}
+.services {
+  display: none;
+}
+.service:hover .services {
+  display: block;
+}
